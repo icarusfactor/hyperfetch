@@ -21,6 +21,7 @@ hyperfetch shortcode parameters:<BR>
 hyperswitch shortcode parameters:<BR>
 [ tag: ] This is the unique id of the anchor tag the switch will control<BR>
 [ url: ] This is the remote page url to dynamically load into the menus dynamic page.<BR>
+         The remote page has to have a tag with primary id init and it will read everything within this tag and embed it into your dynamic loading area. ex. &#x3C;div id=&#x22;primary&#x22; &#x3E;&#x3C;/div&#x3E;<BR>
 [ menu: ] This option tells the plugin how to display the menu control blocks. It can have 1 or 2 digits. The 1st is to show the main menu or not. 2nd is to show submenu or not.<BR>
 [ img: ] If you wish to have an icon instead of text controls you can place the image in this paramter.<BR>
 This is the minimal HTML skeleton setup for HyperFetch to connect to.<BR>
