@@ -25,8 +25,8 @@ hyperswitch shortcode parameters:<BR>
 [ img: ] If you wish to have an icon instead of text controls you can place the image in this paramter.<BR>
 This is the minimal HTML skeleton setup for HyperFetch to connect to.<BR>
 
-&#x3C;nav id=&#x22;btn-controls&#x22; &#x3E;&#x3C;BR&#x3E;<BR>
-&#x3C;a href=&#x22;/&#x22; class=&#x22;connect&#x22; id=&#x22;TZ1&#x22; &#x3E;TEST1&#x3C;/a&#x3E;&#x3C;BR&#x3E;<BR>
+&#x3C;nav id=&#x22;btn-controls&#x22; &#x3E;<BR>
+&#x3C;a href=&#x22;/&#x22; class=&#x22;connect&#x22; id=&#x22;TZ1&#x22; &#x3E;TEST1&#x3C;/a&#x3E;<BR>
 &#x3C;a href=&#x22;/&#x22; class=&#x22;connect&#x22; id=&#x22;TZ2&#x22; &#x3E;TEST2&#x3C;/a&#x3E;<BR>
 &#x3C;a href=&#x22;/&#x22; class=&#x22;connect&#x22; id=&#x22;TZ3&#x22; &#x3E;TEST3&#x3C;/a&#x3E;<BR>
 &#x3C;/nav&#x3E;<BR>
@@ -35,10 +35,10 @@ This is the minimal HTML skeleton setup for HyperFetch to connect to.<BR>
 STUFF WILL BE HERE&#x3C;BR&#x3E;<BR>
 &#x3C;/div&#x3E;<BR>
 <BR>
+<BR>
 
-
-[hyperfetch class="connect" initid=0 controlsid="btn-controls" containerid="bazinga" loadbr=30 ]
-[hyperswitch tag="TZ1" url="/tzcontent1" menu="1" img="http://47.217.123.141:8080/wp-content/uploads/2020/02/USOutils_icon.svg" ]
-[hyperswitch tag="TZ2" url="/tzcontent2" menu="1" ]
-[hyperswitch tag="TZ3" url="/tzcontent3" menu="1" img="http://47.217.123.141:8080/wp-content/uploads/2020/02/USOutils_icon.svg" ]
-[/hyperfetch] 
+[hyperfetch class="connect" initid=0 controlsid="btn-controls" containerid="bazinga" loadbr=30 ]<BR>
+[hyperswitch tag="TZ1" url="/tzcontent1" menu="1" img="http://47.217.123.141:8080/wp-content/uploads/2020/02/USOutils_icon.svg" ]<BR>
+[hyperswitch tag="TZ2" url="/tzcontent2" menu="1" ]<BR>
+[hyperswitch tag="TZ3" url="/tzcontent3" menu="1" img="http://47.217.123.141:8080/wp-content/uploads/2020/02/USOutils_icon.svg" ]<BR>
+[/hyperfetch] <BR>
